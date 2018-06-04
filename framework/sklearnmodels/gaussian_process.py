@@ -1,0 +1,3 @@
+from framework.base import SKLearnModelGenerator
+
+from sklearn.gaussian_process import GaussianProcessClassifier
