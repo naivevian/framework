@@ -95,7 +95,7 @@ class ModelGenerator(object):
             elif self._hp_space[i][2] == 1:
                 specific_params[self._hp_space[i][0]] = (int(params[i]))
             elif self._hp_space[i][2] == 2:
-                specific_params[self._hp_space[i][0]] = params[i]  # dict, tuple params
+                specific_params[self._hp_space[i][0]] = params[i]  # object parameters
             else:
                 specific_params[self._hp_space[i][0]] = (self._hp_space[i][3][params[i]])
 
